@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Xilinx/Project2/top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_pkg" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wave_markers>
+      <marker time="11647000000" label="" />
+      <marker time="10895000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/state" type="other" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+      <obj_property name="label">state CPU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/instr_type" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_type</obj_property>
+      <obj_property name="ObjectShortName">instr_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/dcache/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/wb_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_done</obj_property>
+      <obj_property name="ObjectShortName">wb_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/icache/hit_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hit_sig</obj_property>
+      <obj_property name="ObjectShortName">hit_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/dcache/hit_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hit_sig</obj_property>
+      <obj_property name="ObjectShortName">hit_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/regs[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">regs[10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cpu/regs[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Xilinx/Project2/cache_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cache_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/cache_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">CPU signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#0000ff</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/cpu_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_enable</obj_property>
+      <obj_property name="ObjectShortName">cpu_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/cpu_rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_rw</obj_property>
+      <obj_property name="ObjectShortName">cpu_rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/cpu_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/cpu_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/cpu_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_done</obj_property>
+      <obj_property name="ObjectShortName">cpu_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider28" type="divider">
+      <obj_property name="label">Memory signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#ff0000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/uut/mem_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_enable</obj_property>
+      <obj_property name="ObjectShortName">mem_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/uut/mem_addr_tmp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_addr_tmp[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_tmp[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/mem_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/mem_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_done</obj_property>
+      <obj_property name="ObjectShortName">mem_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/mem_rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_rw</obj_property>
+      <obj_property name="ObjectShortName">mem_rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#808080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/uut/hit_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hit_sig</obj_property>
+      <obj_property name="ObjectShortName">hit_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cache_tb/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

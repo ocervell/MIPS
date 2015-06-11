@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Xilinx/Project2/top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_pkg" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group57" type="group">
+      <obj_property name="label">CPU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="divider190" type="divider">
+         <obj_property name="label">FSM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">#008000</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="group4252" type="group">
+         <obj_property name="label">Done signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_tb/uut/cpu/if_done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">if_done</obj_property>
+            <obj_property name="ObjectShortName">if_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/id_done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">id_done</obj_property>
+            <obj_property name="ObjectShortName">id_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/ex_done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">ex_done</obj_property>
+            <obj_property name="ObjectShortName">ex_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/mm_done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">mm_done</obj_property>
+            <obj_property name="ObjectShortName">mm_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/wb_done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">wb_done</obj_property>
+            <obj_property name="ObjectShortName">wb_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/alu_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="divider189" type="divider">
+         <obj_property name="label">Registers</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="group179" type="group">
+         <obj_property name="label">Registers</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_tb/uut/cpu/pc" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">pc[31:0]</obj_property>
+            <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/ir" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ir[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/mdr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mdr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mdr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/regs" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">regs[0:31]</obj_property>
+            <obj_property name="ObjectShortName">regs[0:31]</obj_property>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">regs[0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">regs[1]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2]</obj_property>
+               <obj_property name="ObjectShortName">regs[2]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3]</obj_property>
+               <obj_property name="ObjectShortName">regs[3]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4]</obj_property>
+               <obj_property name="ObjectShortName">regs[4]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5]</obj_property>
+               <obj_property name="ObjectShortName">regs[5]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6]</obj_property>
+               <obj_property name="ObjectShortName">regs[6]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7]</obj_property>
+               <obj_property name="ObjectShortName">regs[7]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8]</obj_property>
+               <obj_property name="ObjectShortName">regs[8]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9]</obj_property>
+               <obj_property name="ObjectShortName">regs[9]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10]</obj_property>
+               <obj_property name="ObjectShortName">regs[10]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11]</obj_property>
+               <obj_property name="ObjectShortName">regs[11]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12]</obj_property>
+               <obj_property name="ObjectShortName">regs[12]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13]</obj_property>
+               <obj_property name="ObjectShortName">regs[13]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14]</obj_property>
+               <obj_property name="ObjectShortName">regs[14]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15]</obj_property>
+               <obj_property name="ObjectShortName">regs[15]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[16]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[16]</obj_property>
+               <obj_property name="ObjectShortName">regs[16]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[17]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[17]</obj_property>
+               <obj_property name="ObjectShortName">regs[17]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[18]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[18]</obj_property>
+               <obj_property name="ObjectShortName">regs[18]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[19]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[19]</obj_property>
+               <obj_property name="ObjectShortName">regs[19]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[20]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[20]</obj_property>
+               <obj_property name="ObjectShortName">regs[20]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[21]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[21]</obj_property>
+               <obj_property name="ObjectShortName">regs[21]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[22]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[22]</obj_property>
+               <obj_property name="ObjectShortName">regs[22]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[23]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[23]</obj_property>
+               <obj_property name="ObjectShortName">regs[23]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[24]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[24]</obj_property>
+               <obj_property name="ObjectShortName">regs[24]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[25]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[25]</obj_property>
+               <obj_property name="ObjectShortName">regs[25]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[26]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[26]</obj_property>
+               <obj_property name="ObjectShortName">regs[26]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[27]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[27]</obj_property>
+               <obj_property name="ObjectShortName">regs[27]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[28]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[28]</obj_property>
+               <obj_property name="ObjectShortName">regs[28]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[29]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[29]</obj_property>
+               <obj_property name="ObjectShortName">regs[29]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[30]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[30]</obj_property>
+               <obj_property name="ObjectShortName">regs[30]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_tb/uut/cpu/regs[31]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[31]</obj_property>
+               <obj_property name="ObjectShortName">regs[31]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="divider56" type="divider">
+         <obj_property name="label">Instruction</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">#0000ff</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="group187" type="group">
+         <obj_property name="label">Instruction</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_tb/uut/cpu/instr_type" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">instr_type</obj_property>
+            <obj_property name="ObjectShortName">instr_type</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/rs_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">rs_int</obj_property>
+            <obj_property name="ObjectShortName">rs_int</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/rt_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">rt_int</obj_property>
+            <obj_property name="ObjectShortName">rt_int</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/rd_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">rd_int</obj_property>
+            <obj_property name="ObjectShortName">rd_int</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/imm_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">imm_int</obj_property>
+            <obj_property name="ObjectShortName">imm_int</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/shamt_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">shamt_int</obj_property>
+            <obj_property name="ObjectShortName">shamt_int</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/offset_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">offset_int</obj_property>
+            <obj_property name="ObjectShortName">offset_int</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/opcode_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">opcode_int</obj_property>
+            <obj_property name="ObjectShortName">opcode_int</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/funct_int" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">funct_int</obj_property>
+            <obj_property name="ObjectShortName">funct_int</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/alu_out" type="array" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="label">alu_out[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group59" type="group">
+      <obj_property name="label">Icache</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/uut/cpu/icache/cpu_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpu_en</obj_property>
+         <obj_property name="ObjectShortName">cpu_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/icache/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/icache/hit_sig" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">hit_sig</obj_property>
+         <obj_property name="ObjectShortName">hit_sig</obj_property>
+         <obj_property name="label">hit_sig</obj_property>
+      </wvobject>
+      <wvobject fp_name="group4267" type="group">
+         <obj_property name="label">connections</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="divider131" type="divider">
+            <obj_property name="label">CPU connections</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="BkColor">128 128 255</obj_property>
+            <obj_property name="TextColor">230 230 230</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/cpu_en" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_en</obj_property>
+            <obj_property name="ObjectShortName">cpu_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/cpu_rw" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_rw</obj_property>
+            <obj_property name="ObjectShortName">cpu_rw</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/cpu_done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_done</obj_property>
+            <obj_property name="ObjectShortName">cpu_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/cpu_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_addr[11:0]</obj_property>
+            <obj_property name="ObjectShortName">cpu_addr[11:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/cpu_data_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_data_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cpu_data_i[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/cpu_data_o" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_data_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cpu_data_o[31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider67" type="divider">
+            <obj_property name="label">Mem connections</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="BkColor">#ff0000</obj_property>
+            <obj_property name="TextColor">230 230 230</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/mem_rw" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_rw</obj_property>
+            <obj_property name="ObjectShortName">mem_rw</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/mem_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_addr[11:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_addr[11:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/mem_data_i" type="array" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">mem_data_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_data_i[31:0]</obj_property>
+            <obj_property name="label">mem_data_i[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/icache/mem_data_o" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_data_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_data_o[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/icache/cache" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cache[0:31]</obj_property>
+         <obj_property name="ObjectShortName">cache[0:31]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group60" type="group">
+      <obj_property name="label">Dcache</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/uut/cpu/dcache/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/dcache/cpu_done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpu_done</obj_property>
+         <obj_property name="ObjectShortName">cpu_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/dcache/cpu_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cpu_en</obj_property>
+         <obj_property name="ObjectShortName">cpu_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/dcache/hit_sig" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hit_sig</obj_property>
+         <obj_property name="ObjectShortName">hit_sig</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/cpu/dcache/cache" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cache[0:15]</obj_property>
+         <obj_property name="ObjectShortName">cache[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group4268" type="group">
+         <obj_property name="label">connections</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="divider131" type="divider">
+            <obj_property name="label">CPU connections</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="BkColor">128 128 255</obj_property>
+            <obj_property name="TextColor">230 230 230</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/cpu_rw" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_rw</obj_property>
+            <obj_property name="ObjectShortName">cpu_rw</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/cpu_done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_done</obj_property>
+            <obj_property name="ObjectShortName">cpu_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/cpu_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_addr[11:0]</obj_property>
+            <obj_property name="ObjectShortName">cpu_addr[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/cpu_data_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_data_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cpu_data_i[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/cpu_data_o" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">cpu_data_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cpu_data_o[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider132" type="divider">
+            <obj_property name="label">Mem connections</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="BkColor">#ff0000</obj_property>
+            <obj_property name="TextColor">230 230 230</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/mem_rw" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_rw</obj_property>
+            <obj_property name="ObjectShortName">mem_rw</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/mem_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_addr[11:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_addr[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/mem_data_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_data_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_data_i[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_tb/uut/cpu/dcache/mem_data_o" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_data_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_data_o[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group247" type="group">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/uut/memory/rw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rw</obj_property>
+         <obj_property name="ObjectShortName">rw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/memory/mem_size" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_size</obj_property>
+         <obj_property name="ObjectShortName">mem_size</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/memory/addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/memory/data_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/memory/data_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_o[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/memory/mem" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mem[0:4095]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:4095]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
